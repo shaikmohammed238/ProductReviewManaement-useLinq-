@@ -41,7 +41,7 @@ namespace day35ProductReviewManagementWithLinq
             };
             //CreateDataTable(); 
 
-            Management management = new Management();  //Creating Object of Management class
+            Management management = new Management();//Creating Object of Management class
 
             //UC1
             // management.IterateProductReview(productReviewlist);
@@ -53,8 +53,8 @@ namespace day35ProductReviewManagementWithLinq
             //Management.RetrieveProductIDAndReviewUsingLambdaSyntax(productReviewlist); //UC7
             //CreateDataTable(); //UC8
             //Management.RetrieveRecordWithTrueIsLike(); //UC9
-            Management.FindAverageRatingOfTheEachProductId();// uc10
-
+            // Management.FindAverageRatingOfTheEachProductId();// uc10
+            Management.RetrieveRecordsWithReviewContainsNice();//UC11
 
             Console.ReadLine();
         }
