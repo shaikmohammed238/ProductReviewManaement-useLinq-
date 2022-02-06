@@ -48,7 +48,8 @@ namespace day35ProductReviewManagementWithLinq
             // Management.Retrievetop3records(productReviewlist); //UC2
             // Management.RetrieveRecordsWithGreaterThanThreeRating(productReviewlist); //UC3
             //Management.RetrieveCountOfReviewForEachProductId(productReviewlist); //UC4
-            Management.RetrieveProductIDAndReviewOfAllRecords(productReviewlist); //UC5
+            //Management.RetrieveProductIDAndReviewOfAllRecords(productReviewlist); //UC5
+            Management.SkipTopFiveRecords(productReviewlist); //UC6
 
             Console.ReadLine();
         }
