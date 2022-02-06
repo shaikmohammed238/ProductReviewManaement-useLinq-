@@ -45,8 +45,8 @@ namespace day35ProductReviewManagementWithLinq
 
             //UC1
             // management.IterateProductReview(productReviewlist);
-            Management.Retrievetop3records(productReviewlist); //UC2
-
+            // Management.Retrievetop3records(productReviewlist); //UC2
+            Management.RetrieveRecordsWithGreaterThanThreeRating(productReviewlist); //UC3
 
             Console.ReadLine();
         }
