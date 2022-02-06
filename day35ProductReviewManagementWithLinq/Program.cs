@@ -52,8 +52,8 @@ namespace day35ProductReviewManagementWithLinq
             //Management.SkipTopFiveRecords(productReviewlist); //UC6
             //Management.RetrieveProductIDAndReviewUsingLambdaSyntax(productReviewlist); //UC7
             //CreateDataTable(); //UC8
-            Management.RetrieveRecordWithTrueIsLike(); //UC9
-
+            //Management.RetrieveRecordWithTrueIsLike(); //UC9
+            Management.FindAverageRatingOfTheEachProductId();// uc10
 
 
             Console.ReadLine();
