@@ -1,0 +1,5 @@
+bin/
+obj/
+.vs/
+day35ProductReviewManagementWithLinq.sln/
+cs.proj/

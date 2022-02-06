@@ -44,8 +44,11 @@ namespace day35ProductReviewManagementWithLinq
             Management management = new Management();  //Creating Object of Management class
 
             //UC1
-            management.IterateProductReview(productReviewlist);
+            // management.IterateProductReview(productReviewlist);
+            Management.Retrievetop3records(productReviewlist); //UC2
 
+
+            Console.ReadLine();
         }
 
 
