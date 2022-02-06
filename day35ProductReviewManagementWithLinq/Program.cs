@@ -54,7 +54,8 @@ namespace day35ProductReviewManagementWithLinq
             //CreateDataTable(); //UC8
             //Management.RetrieveRecordWithTrueIsLike(); //UC9
             // Management.FindAverageRatingOfTheEachProductId();// uc10
-            Management.RetrieveRecordsWithReviewContainsNice();//UC11
+            //Management.RetrieveRecordsWithReviewContainsNice();//UC11
+            Management.RetrieveRecordsForGivenUserIdOrderByRating(); //UC12
 
             Console.ReadLine();
         }
